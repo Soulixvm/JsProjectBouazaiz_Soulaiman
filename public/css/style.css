@@ -6,7 +6,7 @@ main {
     height: 100vh;
     position: relative;
 }
-
+/*positionnement des images sur le background*/
 img {
     position: absolute;
     width: 10%;
@@ -16,8 +16,28 @@ img {
     left: 30%;
     bottom: 20%;
 }
-
-.charmander {
+.salameche {
     right: 25%;
     top: 30%;
+}
+/*La vie des pokemon*/
+.lesPointsDeVie{
+    position: absolute;
+    left: 50%;
+        top: 30%;
+}
+.vieAuMax {
+    width: 250px;
+    height: 20px;
+    left: 50%;
+    top: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.pvActuelle {
+    width: 100%;
+    height: 100%;
+    background-color: red;
 }
