@@ -1,0 +1,23 @@
+main {
+    background-image: url(../img/photoIndexPage/battleGround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 10%;
+}
+
+.pikachu {
+    left: 30%;
+    bottom: 20%;
+}
+
+.charmander {
+    right: 25%;
+    top: 30%;
+}
