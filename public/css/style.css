@@ -23,8 +23,13 @@ img {
 /*La vie des pokemon*/
 .lesPointsDeVieSalameche{
     position: absolute;
-    left: 50%;
+    right: 35%;
         top: 30%;
+}
+.lesPointsDeViePikachu {
+    position: absolute;
+    left: 42%;
+    bottom: 45%;
 }
 .vieAuMax {
     width: 250px;
