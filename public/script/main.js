@@ -41,7 +41,7 @@ hoverFaitMaison.addEventListener("mouseover", () => {
 
 hoverFaitMaison.addEventListener("mouseout", () => {
   document.getElementsByTagName("p")[0].innerText =
-    "Que dois-je faire <br> Pikachu?";
+    "Que dois-je faire Pikachu?";
 });
 
 // Redirection vers Lien Externe
