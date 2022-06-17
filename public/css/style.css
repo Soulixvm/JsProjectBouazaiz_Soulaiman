@@ -71,11 +71,23 @@ footer {
 
 .question {
     font-size: 40px;
+    color: whitesmoke;
     background-color: #285069;
-    box-shadow: inset 0px 0px 0px 30px rgba(201, 168, 73, 1), inset 0px 0px 0px 38px #818588;
+    box-shadow: inset 0px 0px 0px 20px rgba(201, 168, 73, 1), inset 0px 0px 0px 30px #818588;
 }
 
-.question p {
+.question p,.question .pInvisible {
     width: fit-content;
     margin: 2rem auto;
+}
+.pInvisible{
+    display: none;
+}
+button{
+        border: none;
+}
+.boutonAttaque{
+    border-radius: 25px 25px 25px 25px;
+    border: 16px solid #2a67b6;
+    height: 100%;
 }
