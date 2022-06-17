@@ -11,11 +11,6 @@ main>img {
     position: absolute;
     width: 10%;
 }
-/* img{
-
-    width: 1%;
-
-} */
 
 .pikachu {
     left: 30%;
@@ -55,3 +50,12 @@ main>img {
 .pokeBall{
     width: 250px;
 }
+
+/*Menu_Navbar*/
+.menu {
+    bottom: 0;
+    position: fixed;
+    height: 215px;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+ }
