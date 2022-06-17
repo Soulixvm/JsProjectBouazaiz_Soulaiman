@@ -18,7 +18,7 @@
         <img class="salameche" src="./public/img/photoIndexPage/charmander.png" alt="Charmander">
         <div class="lesPointsDeVieSalameche">
             <div class="vieAuMax">
-                <div class="pvActuelle"></div>
+                <div class="pvActuelles" id="pvActuelle"></div>
             </div>
             <div class="pokeBall row justify-content-between pt-3 m-0">
                 <img class="col-3 pokeSalameche" src="/public/img/photoIndexPage/pokeBall.png" alt="">
@@ -29,7 +29,7 @@
         </div>
         <div class="lesPointsDeViePikachu">
             <div class="vieAuMax">
-                <div class="pvActuelle"></div>
+                <div class="pvActuelles"></div>
             </div>
             <div class="pokeBall row justify-content-between pt-3 m-0">
                 <img class="col-3" src="/public/img/photoIndexPage/pokeBall.png" alt="">
@@ -41,10 +41,13 @@
     </main>
     <footer class="">
         <div class="row monnav">
-            <div class="col question" ><p> Que dois-je faire <br> Pikachu?</p><p class="pInvisible">Bouge toi et dis moi quoi FAIRE!</p></div>
+            <div class="col question">
+                <p> Que dois-je faire <br> Pikachu?</p>
+                <p class="pInvisible">Bouge toi et dis moi quoi FAIRE!</p>
+            </div>
             <div class="col ">
                 <div class="row boutonAttaque">
-                    <button class="col-6 attaque">
+                    <button class="col-6 " id="attaque">
                         ATTAQUE VIE
                     </button>
                     <button class="col-6 attack">
